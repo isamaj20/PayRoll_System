@@ -1,0 +1,956 @@
+
+.head{ 
+   width: 100%;
+   height: 30%;
+   background-color: saddlebrown;
+   border-bottom: 5px solid  #330000 ;
+}
+.logoHolder{
+    width: 13%;
+    height: 90%;
+/*    border: 1px solid black;*/
+    float:left;
+/*    margin-top: -95px;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    width: 100%;
+    height: 90%;
+/*    border: 1px solid red;*/
+    padding-top: 10px;
+}
+.logoutHolder{
+      width: 14%;
+    height: 90%;
+    border-left:  1px dashed #DCDAFF;
+    float:right;
+    margin-top: -95px;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-shadow: -2px 0px 2px #cccccc;
+}
+.logout{
+    width: 100%;
+    height: 100%;
+/*    border: 1px solid green;*/
+    color:whitesmoke;
+}
+.middleHead{
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+    background-color:saddlebrown;
+    color: #330000;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px  dimgray;
+}
+.titleHead{
+    width: 60%;
+    height: 60%;
+    background-color:saddlebrown;
+   color: #330000;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px  dimgray;   
+}
+.smallTitle{
+  width: 60%;
+    height: 40%;
+    background-color:saddlebrown;
+   color: #330000;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: initial;
+/*    text-shadow: 5px 5px 5px  dimgray;   */
+}
+.middleHead2{
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+    background-color: #663300;
+/*    box-shadow:5px 5px 5px  dimgray;*/
+    box-shadow:-1px -1px 1px  whitesmoke;
+/*border: 1px groove #666600;*/
+border-radius: 1em 1em 0em 0em;
+}
+.search{
+    float: right;
+    width: 30%;
+    height: auto;
+/*    border:1px solid green;*/
+}
+.search form input{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 0px 10px;
+/*    background:url(images/login_textbox.png) 0 0 no-repeat;*/
+    border:1px  #33C solid;
+}
+.search form  la input{
+    width:60px;
+}
+.signupHolder{
+    width: 30%;
+    height:100%;
+    float: right;
+}
+
+.signup{
+    font-size: 26px;
+    width: 200px;
+    height:50px;
+    float: right;
+    background-color: #330000;
+    border-radius: 0em 0em 3em 3em;
+    text-shadow:0px 0px 0px;
+    font-style: italic;
+    padding-right:5px;
+    color:#773322;
+    text-align: center;
+}
+.signup ul li a{
+ 
+/*    display: inline;*/
+    text-decoration: none;
+   
+ /*   border-right: 1px dotted bisque;
+    background:#009999;*/
+    font-size: 10px;
+
+/*    position: absolute;*/
+     
+/*     text-align:  center;*/
+}
+.signup ul li{
+    display: inline;
+}
+.signup table tr td{
+    width: 50%;
+    height: 20px;
+}
+.button{
+/*    background:url(images/log_in.png);*/
+    border:none;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: saddlebrown;
+    border: 2px solid #663300;
+    color: #EEE;
+}
+.middleHead2 ul li a{
+/*       display: inline;*/
+    text-decoration: none;
+/*    background:#009999;*/
+    color:white;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right:5px;
+/*    position: absolute;*/
+}
+.middleHead2 ul li{
+    display: inline;
+/*    border-right: 1px solid bisque;*/
+    padding: 10px;
+}
+.middleHead2 ul li:hover{
+    display: inline;
+    background-color: saddlebrown;
+/*    border: 1px solid bisque;*/
+    color: #cccccc;
+
+}
+.middleHead2 ul li a:hover{
+    color: #cccccc;
+
+}
+.section{
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    background-color:  whitesmoke;
+    box-shadow:-1px 0px 2px whitesmoke;
+}
+.midSection{
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+    background-color: whitesmoke;
+    box-shadow:-5px -2px 2px  whitesmoke; 
+    border-radius: 1em 1em 0em 0em;
+    padding: 5px;
+    padding-top: 2px;
+}
+/* Home Page*/
+.employee_login{
+    margin: 0 auto;
+    width: 48%;
+    float: left;
+    height: 50%;
+/*    border: 1px black solid;*/
+    border-radius: 1em 1em 0em 0em;
+    color:  #cccccc;
+    box-shadow: -2px -2px -2px #EEE;
+}
+.employee_login tit{
+    font-size: 20px;
+    font-style:  oblique;
+    box-shadow: -2px -5px -2px #EEE;
+    opacity: 45;
+/*    width: 100%;*/
+    padding-left:10px;
+    padding-bottom: 2px;
+    padding-right:235px;
+    padding-top: 2px;
+    border-radius: 1em 1em 0em 0em;
+    background-color:saddlebrown; 
+    color: antiquewhite;
+}
+.employee_login form table tr td input{
+     font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:250px;
+    height:30px;
+    padding:0px 10px 0px 10px;
+/*    background:url(images/login_textbox.png) 0 0 no-repeat;*/
+    border:1px  #33C solid;
+}
+.admin_login{
+    background: url('./images/login_key.jpg');
+    background-size: 10% 10%;
+    background-repeat: no-repeat;
+    display: block;
+    content: "";
+    margin: 0 auto;
+    width: 48%;
+    float: right;
+    height: 50%;
+/*    border: 1px solid red;*/
+    
+    border-radius: 1em 1em 0em 0em;
+    color: #cccccc;
+    box-shadow: -2px -5px -2px #EEE;
+    
+}
+.admin_login table{
+    border-radius: 1em 1em 0em 0em;
+    color:gray;
+    font-size: 15px;
+    font-style:  oblique;
+    background-color: #EEE;
+    box-shadow: -2px -5px -2px #EEE;
+}
+.admin_login form table tr td input{
+     font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:250px;
+    height:30px;
+    padding:0px 10px 0px 10px;
+/*    background:url(images/login_textbox.png) 0 0 no-repeat;*/
+    border:1px  #33C solid;
+}
+.body_part{
+    background-image:url(images/end2end.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 46%;
+/*    border: 1px yellow dotted;*/
+}
+/********************************** Employer/Admin Page ***************/
+/********************************* Admin Actions **********************/
+.admin_actions{
+      background-image: url("images/img_hr4.png");
+    margin: 0 auto;
+    width: 48%;
+    float: left;
+    height: auto;
+/*    border: 1px black solid;*/
+    border-radius: 1em 1em 0em 0em;
+    color:  #cccccc;
+    box-shadow: -2px -2px -2px #EEE;
+    background-color:whitesmoke;
+  
+    
+}
+.register{
+    background: url(images/register_now.jpg);
+   width: 30%;
+   height: 20%;
+   float: right;
+   box-shadow: -2px -2px 10px  #cccccc;
+   margin-top: 40px;
+   margin-right: 20px;
+   border-radius: 3em 1em 3em 2em;
+    background-color:whitesmoke;
+    
+}
+.register a img{
+    height: 100%;
+    width: 100%;
+    border-radius: 3em 1em 3em 2em;
+    image-resolution:300dpi; 
+    box-shadow: -2px -2px 10px   brown;
+}
+.admin_actions titl{
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left:40px; 
+    border-radius: 1em 1em 0em 0em;
+    background-color:saddlebrown;
+    color: antiquewhite;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold;
+}
+.admin_actions ul li{
+/* background-color:  burlywood;*/
+ width:30%;
+ padding: 5px;
+/* border: 1px solid white;*/
+ border-radius: 0em 0em 0em 0em;
+ border-bottom:1px dashed  #663300 ;
+}
+.admin_actions ul li:hover{
+ background-color: saddlebrown;
+ width:30%;
+ padding: 5px;
+ text-emphasis-color:white;
+}
+.admin_actions ul li a{
+    text-decoration:none;
+    color: cadetblue;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.admin_actions ul li a:hover{
+    text-decoration:none;
+    color:white;
+}
+/************************************ Dropdown 1*************************/
+.admin_actions ul li:hover ul{
+    display: block;
+    position: absolute;
+    margin-left: 90px;
+    padding: 5px;
+}
+.admin_actions ul ul{
+    display: none;
+    position: absolute;
+    background-color: saddlebrown;
+    border: 1px solid #663300;
+/*    opacity:.5;*/
+    top: 266px;
+    margin-left: 210px;
+    padding: 5px;
+}
+.admin_actions ul ul:hover{
+     display: none;
+    position: absolute;
+    background-color: saddlebrown;
+    border: 1px solid #663300;
+    top: 266px;
+    margin-left: 210px;
+    padding: 5px;;
+}
+.admin_actions ul ul li{
+    display: block;
+    width: 100%;
+/*    border: 1px solid #663300;*/
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+     border-bottom:1px dashed  #663300 ;
+}
+.admin_actions ul ul li:hover{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #663300;
+    border-bottom:1px dashed  #663300 ;
+}
+.admin_actions ul ul li a{
+       padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.admin_actions ul ul li a:hover{
+/*    color:  #33C;*/
+width: 100%;
+height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+/********************************  Dropdown 1.1 *************************/
+.admin_actions ul ul ul{
+    visibility: hidden;
+}
+.admin_actions ul ul li:hover ul{
+    display: block;
+    visibility: visible;
+    top: 55px;
+    margin-left: 40px;
+}
+.admin_actions ul ul ul{
+     display: none;
+    position: absolute;
+    background-color: saddlebrown;
+    border: 1px solid #663300;
+    border-top:none;
+/*    opacity:.5;*/
+    top: 289px;
+    margin-left: 210px;
+    padding: 5px;
+}
+.admin_actions ul ul ul li:hover{
+      display: block;
+    width: 100%;
+/*    border: 1px solid #663300;*/
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #663300; 
+}
+.admin_actions ul ul ul li a:hover{
+    width: 100%;
+}
+/***********************************Salary******************/
+#salary{
+   top: 353px;
+    margin-left: 60px;
+     border-top:none;
+}
+#salary li{
+    display: block;
+    width: 100%;
+/*    border: 1px solid #663300;*/
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+     border-bottom:1px dashed  #663300 ;
+}
+/***************************attendance*******************/
+#attend{
+   top: 325px;
+    margin-left: 90px;
+     border-top:none;
+}
+#attend li{
+    display: block;
+    width: 100%;
+/*    border: 1px solid #663300;*/
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+     border-bottom:1px dashed  #663300 ;
+}
+/**************************Report********************/
+#report{
+   top: 294px;
+    margin-left: 90px;
+     border-top:none;
+     border-top: 1px dashed #DCDAFF;
+}
+#report li{
+    display: block;
+    width: 100%;
+/*    border: 1px solid #663300;*/
+        padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+     border-bottom:1px dashed  #663300 ;
+}
+#report ul{
+     top: 0px;
+     margin-left: 65px;
+     border-top:none;
+     border-top: 1px dashed #DCDAFF;  
+}
+.admin_brief{
+    margin: 0 auto;
+    width: 48%;
+    float: right;
+    height: auto;
+/*    border: 1px black solid;*/
+    border-radius: 1em 1em 0em 0em;
+    color:  #cccccc;
+    box-shadow: -2px -2px -2px #EEE;
+    background-color:whitesmoke;
+    background-image: url(images/img_hr4.png);
+    
+}
+.admin_brief titl{
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left:40px; 
+    border-radius: 1em 1em 0em 0em;
+    background-color:saddlebrown;
+    color: antiquewhite;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold;
+}
+/********************************************Admin Page*********************/
+/******************************************Registeration popup****************/
+#regNow a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#regNow form table{
+    width: 100%;
+    height: 100%;
+}
+#regNow form table tr td{
+    padding-left: 10px;
+}
+#regNow form table tr td input{
+        font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:200px;
+    height:30px;
+    padding:0px 10px 0px 10px;
+/*    background:url(images/login_textbox.png) 0 0 no-repeat;*/
+    border:1px  #33C solid;
+}
+#regNow form table tr td tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+.showReg{
+    display: block;
+    visibility: visible;
+}
+/******************************************view all staff popup****************/
+#viewAll a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#viewAll table{
+    width: 100%;
+    height: 100%;
+}
+#viewAll table tr th{
+ height: 20px;
+ border-bottom: 1px solid #773322;
+}
+#viewAll table tr td{
+    padding-left: 10px;
+       height: 10px;
+/*    padding: 0px;*/
+}
+#viewAll table tr th tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+/******************************************view Senior Staff popup****************/
+#viewSenior a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#viewSenior table{
+    width: 100%;
+    height: 100%;
+}
+#viewSenior table tr th{
+ height: 20px;
+ border-bottom: 1px solid #773322;
+}
+#viewSenior table tr td{
+    padding-left: 10px;
+       height: 10px;
+/*    padding: 0px;*/
+}
+#viewSenior table tr th tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+/******************************************view junior staff popup****************/
+#viewJunior a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#viewJunior table{
+    width: 100%;
+    height: 100%;
+}
+#viewJunior table tr th{
+ height: 20px;
+ border-bottom: 1px solid #773322;
+}
+#viewJunior table tr td{
+    padding-left: 10px;
+       height: 10px;
+/*    padding: 0px;*/
+}
+#viewJunior table tr th tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+/**************************************monthly attendance****************/
+#monthlyAtt a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#monthlyAtt table{
+    width: 100%;
+    height: 100%;
+}
+#monthlyAtt table tr th{
+ height: 20px;
+ border-bottom: 1px solid #773322;
+}
+#monthlyAtt table tr td{
+    padding-left: 10px;
+       height: 10px;
+/*    padding: 0px;*/
+}
+#monthlyAtt table tr th tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+/*****************************************View Attendance Request Popup**************/
+#reqAtt a{
+    text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#reqAtt table{
+    width: 100%;
+    height: 100%;
+}
+#reqAtt table tr th{
+ height: 20px;
+ border-bottom: 1px solid #773322;
+}
+#reqAtt table tr td{
+    padding-left: 10px;
+       height: 10px;
+/*    padding: 0px;*/
+}
+#reqAtt table tr th tit{
+    font-size:20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding-top: 5px;
+}
+/******************************************Pay Staff Page****************/
+.paystaff{
+    width: 100%;
+    height: 95%;
+    border: 1px solid black;
+}
+.paystaff table{
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+}
+.paystaff table tr th{
+    background-color: #EEE;
+}
+.paystaff  table a {
+     text-decoration: none;
+   font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid;
+}
+/*******************************************************staff Home page***********************************/
+.attendance{
+    margin: 0 auto;
+    width: 48%;
+    float: right;
+    height: 20px;
+/*    border: 1px black solid;*/
+    border-left: 1px dashed #DCDAFF;
+    color:  #cccccc;
+    box-shadow: -2px -2px -2px #EEE; 
+    background-color: #663300;
+}
+.attendance table{
+    border-radius: 0em 0em 0em 0em;
+    color:gray;
+    font-size: 15px;
+    font-style:  oblique;
+    background-color: #EEE;
+    box-shadow: -2px -5px -2px #EEE;
+    opacity: 45;
+    width: 100%;
+    border-collapse: collapse;
+    border-left: 1px dashed #DCDAFF;
+}
+.attendance table tr th{
+    border-radius: 0em 0em 0em 0em;
+    background-color: #663300;
+    color: antiquewhite;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold;
+}
+.attendance table tr td{
+  padding-left: 10px;  
+}
+.attendance table  tr  td a{
+    text-decoration: none;
+    color:  white;
+    border: 1px solid  #EEE;
+    background-color: #330000;
+/*    box-shadow: -2px -2px 2px #cccccc;*/
+padding: 2px;
+}
+/*****************************************employee page******************/
+.employee_actions{
+    margin: 0 auto;
+    width: 48%;
+    float: left;
+    height: auto;
+/*    border: 1px black solid;*/
+    border-radius: 1em 1em 0em 0em;
+    color:  #cccccc;
+    box-shadow: -2px -2px -2px #EEE;
+    background-color:whitesmoke;
+}
+.employee_actions tit{
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left:40px; 
+    border-radius: 1em 1em 0em 0em;
+    background-color:saddlebrown;
+    color: antiquewhite;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold; 
+}
+.employee_actions ul li{
+ width:30%;
+ padding: 5px;
+/* border: 1px solid white;*/
+ border-radius: 0em 0em 0em 0em;
+ border-bottom:1px dashed  #663300 ;
+}
+.employee_actions ul li:hover{
+ background-color: saddlebrown;
+ width:30%;
+ padding: 5px;
+ text-emphasis-color:white;
+}
+.employee_actions ul li a{
+    text-decoration:none;
+    color: cadetblue;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+employee_actions ul li a:hover{
+    text-decoration:none;
+    color:white;
+}  
+/*********************************************View Profile Popup*************************/
+#viewProfile table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    padding-left: 5px;
+}
+#viewProfile a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:170px;
+    height:24px;
+    padding:0px 10px 10px 10px;
+    background-color: saddlebrown;
+    text-align:center;
+    border:1px  #33C solid; 
+}
+#viewProfile table tr th{
+     background-color: #cccccc;
+}
+/***************************************Contact Us***************/
+.contact_us{
+    background-image: url('images/complain.jpg');
+    float: right;
+    /*border: 1px solid black;*/
+    margin-top: -150px;
+    height: 100%;
+    width: 55%;
+      border-left: 0.5px solid #663300;
+       border-radius: 0em 0em 0em 2em;
+}
+.contact_us form table{
+    margin: 0 auto;
+    width: 95%;
+    height: 95%;
+  
+    /*border-right: 1px solid #663300;*/
+    border-bottom:  1px solid #663300;
+    border-radius: 0em 2.5em 0em 0em;
+}
+.contact_us form table tr th{
+     /*padding-right: 200px;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left:10px; 
+    border-radius: 1em 1em 0em 0em;
+    background-color:saddlebrown;
+    color: antiquewhite;
+    font-size:20px;
+    font-style:italic;
+    font-weight: bold;
+}
+.contact_us form table tr td input{
+    float: right;
+    width: 300px;
+}
+/**********************************************Edit Login popup*************/    
+#editLogin table{
+    border-radius: 1em 1em 0em 0em;
+    color:gray;
+    font-size: 15px;
+    font-style:  oblique;
+    background-color: #EEE;
+    box-shadow: -2px -5px -2px #EEE;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+#editLogin a{
+    text-decoration: none;
+}
+#editLogin form table tr td input{
+     font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#000;
+    width:250px;
+    height:30px;
+    padding:0px 10px 0px 10px;
+/*    background:url(images/login_textbox.png) 0 0 no-repeat;*/
+    border:1px  #33C solid;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color:saddlebrown;
+       border-top: 5px solid  #330000 ;
+}
+.footerMiddle{
+      margin: 0 auto;
+    width: 70%;
+    height: 50%;
+    background-color: #663300;
+/*    box-shadow:5px 5px 5px  dimgray;*/
+    box-shadow:-1px 1px 1px  whitesmoke;
+/*border: 1px groove #666600;*/
+border-radius: 0em 0em 1em 1em;  
+padding-left: 1px;
+padding-top: 3px;
+font-size: 15px;
+color: white;
+font-style: normal;
+}
+.footerMiddleLeft{
+    width: 50%;
+    height: 100%;
+    float: right;
+/*    border: 1px solid black;*/
+}
+.footerMiddleLeft a:hover{
+    background-color: white;
+    padding: 5px;
+}
